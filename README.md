@@ -1,6 +1,6 @@
 # mpv-gif-generator *for windows*
 
-![teste]([https://imgur.com/qkPM0BX.gif](https://i.imgur.com/SeBkBRT.gif))
+![teste](https://i.imgur.com/SeBkBRT.gif))
 
 Original script created by [Ruin0x11](https://github.com/Ruin0x11), which you can find [here](https://gist.github.com/Ruin0x11/8fae0a9341b41015935f76f913b28d2a).
 This is a port of his gif generator script for Windows. [Now with slightly fixed code, I also changed the end time/ gif export with subtitles due to it being incredibly finnicky, the output directory is also a bit different.]
