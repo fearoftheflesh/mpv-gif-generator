@@ -16,17 +16,19 @@ First of all, you must make sure `ffmpeg` is in your `%PATH%` and accesible via 
 
 [How to install ffmpeg](https://www.wikihow.com/Install-FFmpeg-on-Windows)
 
-# Configuration
 
-After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if it isn't created already and write a `gif.conf` file to configure the script. The three options the script offers are:
-
-* `dir` – Sets the output directory. Default is `C:\Users\[user]\Pictures\mpv-gifs`. [ENSURE THIS DIRECTORY EXISTS! OTHERWISE IT'LL BREAK!]
-* `rez` – Sets the resolution of the output gifs. Default is 600.
-* `fps` – Sets the framerate of the output gifs. Default is 15. Don't go too overboard or the filesize will balloon.
- 
 ## Hotkeys
 
 * `g` - Start time
 * `'` - End time
 * `CTRL+g` - Export GIF
 * `CTRL+'` - Export GIF with subtitles
+
+# Configuration
+
+After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if it isn't created already and write a `gif.conf` file to configure the script. The three options the script offers are:
+
+* `dir` – Sets the output directory. Default is `C:\Users\[user]\Pictures\mpv-gifs`.
+  [ENSURE THIS DIRECTORY EXISTS! OTHERWISE IT'LL BREAK!]
+* `rez` – Sets the resolution of the output gifs. Default is 600.
+* `fps` – Sets the framerate of the output gifs. Default is 15. Don't go too overboard or the filesize will balloon.
