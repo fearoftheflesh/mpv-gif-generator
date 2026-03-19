@@ -1,6 +1,6 @@
 # mpv-gif-generator *for windows* (actually working edition)
 
-![teste](https://i.imgur.com/m4w7zAy.gif)
+![teste](https://i.imgur.com/ENLjID7.gif)
 
 Original script created by [Ruin0x11](https://github.com/Ruin0x11), which you can find [here](https://gist.github.com/Ruin0x11/8fae0a9341b41015935f76f913b28d2a).
 
