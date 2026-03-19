@@ -1,9 +1,13 @@
-# mpv-gif-generator *for windows*
+# mpv-gif-generator *for windows* (actually working edition)
 
-![teste](https://i.imgur.com/SeBkBRT.gif))
+![teste]((https://i.imgur.com/m4w7zAy.gif))
 
 Original script created by [Ruin0x11](https://github.com/Ruin0x11), which you can find [here](https://gist.github.com/Ruin0x11/8fae0a9341b41015935f76f913b28d2a).
-This is a port of his gif generator script for Windows. [Now with slightly fixed code, I also changed the end time/ gif export with subtitles due to it being incredibly finnicky, the output directory is also a bit different.]
+
+
+Now with slightly optimized code (absolute paths, ffmpeg integration via PATH, subtitle burning fixed, and respects output dir.). A fork of a fork, intuitive, no? 
+
+I also changed the end time/gif export with subtitles hotkeys due to it being incredibly finnicky, the output directory is also a bit different. You may change these as you see fit, it's a personal preference.
 
 # Requirements 
 - Windows
@@ -29,6 +33,6 @@ First of all, you must make sure `ffmpeg` is in your `%PATH%` and accesible via 
 After setup, and if you wish, create a `%APPDATA%/mpv/script-opts` directory if it isn't created already and write a `gif.conf` file to configure the script. The three options the script offers are:
 
 * `dir` – Sets the output directory. Default is `C:\Users\[user]\Pictures\mpv-gifs`.
-  [ENSURE THIS DIRECTORY EXISTS! OTHERWISE IT'LL BREAK!]
+  [ENSURE THIS DIRECTORY EXISTS REGARDLESS! OTHERWISE IT'LL BREAK!]
 * `rez` – Sets the resolution of the output gifs. Default is 600.
 * `fps` – Sets the framerate of the output gifs. Default is 15. Don't go too overboard or the filesize will balloon.
